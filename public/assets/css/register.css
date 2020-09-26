@@ -1,0 +1,45 @@
+/*---REGISTER FORM STYLES---*/
+
+/*----Blue text color most used: #3675d3----*/
+/*-----Blue gradient background colors most used: #2bbdbd, #4388ee, #2155a6----*/
+
+input[disabled] {
+    background-color: lightgray;
+}
+
+button.register-login-buttons {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button.register-login-buttons[disabled] {
+    background: lightgray;
+    cursor: not-allowed;
+}
+button.register-login-buttons[disabled]:hover {
+    box-shadow: none;
+}
+
+span.log-in {
+    font-size: 13px;
+}
+
+span.log-in a{
+    color: #3665cd;
+    text-decoration: none;
+}
+
+.button:disabled{
+	background: #b3cad4;
+	cursor: default;
+}
+
+.button:hover:disabled{
+	box-shadow: none;
+}
+
+[type=submit]:not(:disabled){
+	cursor: pointer;
+}

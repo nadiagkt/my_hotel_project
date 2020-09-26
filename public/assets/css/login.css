@@ -1,0 +1,17 @@
+/*---LOGIN FORM STYLES---*/
+
+/*----Blue text color most used: #3675d3----*/
+/*-----Blue gradient background colors most used: #2bbdbd, #4388ee, #2155a6----*/
+
+form.login-form {
+    margin-top: 25px;
+}
+
+    form.login-form h2{
+        padding-bottom: 20px;
+    }
+
+    form.login-form button {
+        margin-top: 22px;
+    }
+   

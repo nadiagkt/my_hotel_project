@@ -1,0 +1,119 @@
+/*---Bookings Styles---*/
+
+/*----Blue text color most used: #3675d3----*/
+/*-----Blue gradient background colors most used: #2bbdbd, #4388ee, #2155a6----*/
+
+div.top-room-bar h2{
+    text-transform: none;
+}
+
+/*---Sidebar Styles---*/
+
+div.sidebar-filters{
+    height: 600px;
+    padding: 25px 40px;
+}
+
+div.sidebar-filters h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.sidebar-filters h2.check-search{
+    color: #3597af;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div.favourites{
+    margin-bottom: 35px;
+}
+
+
+ol{
+    text-align: left;
+}
+
+li.hotel-fav-rev  {
+    padding-top: 20px;
+    font-size: 22px;
+    
+}
+
+.hotel-fav-rev span{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+i.checked{
+    color: #e6d11c;;
+}
+
+a.name-styles {
+    color: #444444;
+    text-decoration: none;
+}
+
+a.name-styles:hover  {
+    color: #3675d3;
+
+}
+
+/*---Room Styles---*/
+
+div.room-details{
+    display: flex;
+	flex-direction: row;
+}
+
+
+div.room-details > h3.room-price{
+    margin-right: 13px;
+
+}
+
+p.detail-text1 {
+    font-size: 11px;
+    padding-right: 10px;
+ }
+
+ 
+p.detail-text1:after {
+    padding-right: 10px;
+    
+}
+
+p.detail-text2 {
+   text-align: left; 
+   padding-left: 0;
+   font-size: 11px;
+   padding-right: 10px;
+}
+
+
+p.detail-text2:after {
+    display: inline;
+    content: ' ';
+    border-right: 1px solid #404040;
+    padding-left: 10px;
+}
+
+p.detail-text3 {
+    text-align: left;
+    font-size: 11px;
+}
+
+/* span.break{
+    display: block;
+} */
+
+
+/* div h3.room-price{
+    font-size: 16px;
+}
+
+span.per-night-price{
+    font-size: 13px;
+} */

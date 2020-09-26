@@ -1,0 +1,58 @@
+/*----DROPDOWN STYLES----*/
+
+/*----Blue text color most used: #3675d3----*/
+/*-----Blue gradient background colors most used: #2bbdbd, #4388ee, #2155a6----*/
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #3675d3;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding: 25px 5px 22px;
+    margin-left: 5px;
+}
+  
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3675d3;
+    color:#fff;
+    padding-bottom: 23px;
+    
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fffbfb;
+    min-width: 156px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 5px;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #3675d3;
+    padding: 12px 16px;
+}
+  
+.show {
+    display: block;
+}

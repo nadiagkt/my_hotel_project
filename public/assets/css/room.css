@@ -1,0 +1,275 @@
+/*---GENERAL STYLES---*/
+
+/*----Blue text color most used: #3675d3----*/
+/*-----Blue gradient background colors most used: #2bbdbd, #4388ee, #2155a6----*/
+
+
+body{
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---ROOM---*/
+
+div.room-container{
+	text-align: center;
+    width: 56%;
+    margin: 0 auto;
+	padding: 90px 30px 0;
+    background: #ffffffa6;
+}
+
+div.top-room-bar{
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   padding: 10px;
+   font-size: 1vw;
+}
+
+
+div.results-bar h2{
+    float: left;
+    font-size: 1vw;
+}
+
+div.results-bar span.icons{
+    float: left;
+}
+
+div.results-bar.top-room-bar p{
+    text-transform: capitalize;
+    margin-left: auto;
+}
+
+.border{
+    display: inline;
+    content: ' ';
+    border-right: 1px solid #aaa;
+    padding: 2px;
+}
+
+.results-bar h2{
+    padding: 0;
+   
+}
+
+h2.border{
+    padding-right: 5px;
+}
+
+
+div.reviews{
+    padding-left: 5px;
+    color: #000;
+}
+
+div.reviews > span{
+    color: #fff;
+}
+
+/*----ICONS----*/
+
+/*---Stars---*/
+
+span.icons{
+    padding-top: 8px;
+    color: #e6d11c;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+
+i.fas.fa-star.checked{
+    color: #e6d11c;
+}
+
+i.fas.fa-heart{
+    padding-left: 5px;
+    font-size: 1vw;
+    position: relative;
+}
+
+/*---Heart---*/
+
+i.fas.fa-heart:hover {
+    color: #e40000; 
+    cursor: pointer;
+}
+
+button.heart-favorite-button{
+    background: none;
+    display: contents;
+    width: 100px;
+}
+
+button.heart-favorite-button:hover{
+    box-shadow: none;
+}
+
+.favoriteForm {
+    display: inline-block;
+}
+
+.favoriteForm  ul{
+    display: inline-block;
+}
+
+.favoriteForm ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.selected{
+    color: #e40000;
+} 
+
+.favoriteForm ul li:hover{
+    color: #e40000;
+}
+
+/*---IMAGE---*/
+
+div.room-image{
+    text-align: left;
+   margin: 20px 0;
+}
+
+div.room-image img{
+    width: 65%;
+}
+
+/*---SERVICES---*/
+
+div.services-bar{
+   height: 60px; 
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+div.services-bar .guests, .type-room, .parking, .internet, .pets{
+    padding: 10px 50px; 
+    font-size: 0.7vw;
+    text-transform: uppercase;
+}
+
+div.services-bar .guests, .type-room, .parking, .internet{
+    border-right: 2px dotted #fff;
+}
+
+/*-----ROOM BUTTONS-----*/
+
+div.book-room-buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+button.button-booked{
+    font-size: 15px;
+    width: 140px;
+    height: 30px;
+    background: #e40000;
+}
+
+button.button-booked:hover{
+    box-shadow: none;
+    cursor: default;
+}
+
+/*----REVIEWS----*/
+
+textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #b5b5b5;
+}
+
+div.text-border{
+    text-align: left;
+    border-left: 3px solid #18429d;
+    padding-left: 2%;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+
+div.text-border h3{
+    font-weight: 200;
+    text-transform: capitalize;
+   
+}
+
+div.text-border p {
+    padding-top: 10px;
+}
+
+hr.hr-style {
+    margin: 80px 0 30px;
+    border-top: 2px dotted rgb(83, 83, 83);
+}
+
+div h3.reviews-heading {
+    padding-bottom: 30px;
+}
+
+div.submit-button{
+    text-align: center; 
+}
+
+div.submit-button button {
+    width: 120px;
+}
+
+p.review-username{
+    display: inline;
+    margin-right: 10px;
+}
+
+p.review-small-text{
+    font-size: 14px;
+    color:  rgb(76 49 49);
+}
+
+div.review-div{
+	 display: flex;
+    flex-direction: column;
+}
+
+div.text-border p.comment{
+    margin-bottom: 42px;
+    color: #3675d3;
+}
+
+/*-----REVIEW STARS-----*/
+
+fieldset{
+    border: none;
+}
+
+span.rating ul{
+    display: flex;
+    list-style: none;
+}
+
+span.rating ul li{
+    color: #929292;;
+    letter-spacing: 5px;
+    margin-bottom: 10px;;
+}
+
+span.rating ul li:hover{
+    color: #e6d11c;
+}
+
+span.rating ul li.active {
+    color: #e6d11c;
+}
+
+input[type="radio"]{
+    display: none;
+}

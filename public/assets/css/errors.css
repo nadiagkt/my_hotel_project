@@ -1,0 +1,14 @@
+/*----ERRORS STYLES----*/
+
+.display-none {
+	display: none;
+}
+
+.error{
+	font-size: 13px;
+	color: red;
+}
+
+input.is-invalid {
+    border: 1px solid red;
+}
