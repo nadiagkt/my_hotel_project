@@ -1,8 +1,8 @@
 {
     "database":{
-        "host": "127.0.0.1",
-        "dbname": "hotel",
-        "username": "hotel",
-        "password": "password"
+        "host": "us-cdbr-east-02.cleardb.com",
+        "dbname": "heroku_8f67a42edaed23e",
+        "username": "b53caa32475c65",
+        "password": "a775c499"
     }
 }
