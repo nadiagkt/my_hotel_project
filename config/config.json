@@ -3,6 +3,6 @@
         "host": "us-cdbr-east-02.cleardb.com",
         "dbname": "heroku_8f67a42edaed23e",
         "username": "b53caa32475c65",
-        "password": "a775c499"
+        "password": "password"
     }
 }
